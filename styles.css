@@ -712,6 +712,256 @@ textarea:focus {
   }
 }
 
+/* Styles responsives améliorés */
+@media screen and (max-width: 768px) {
+  /* Layout global */
+  .mw {
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Header */
+  .mw-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--white);
+    padding: var(--space-xs);
+    border-bottom: 1px solid var(--border-color);
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  /* Logo et marque */
+  .mw-brand {
+    text-align: center;
+    padding: var(--space-xs) 0;
+  }
+
+  .mw-logo {
+    font-size: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .mw-slogan {
+    font-size: 0.8rem;
+  }
+
+  /* Barre de recherche */
+  .mw-search {
+    width: 100%;
+    margin: 0;
+    padding: 0 var(--space-xs);
+  }
+
+  .mw-search-input {
+    height: 40px;
+  }
+
+  .mw-search-btn {
+    height: 40px;
+  }
+
+  /* Boutons d'authentification */
+  .mw-auth {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-xs);
+    padding: var(--space-xs);
+    margin: 0;
+  }
+
+  .mw-auth-btn {
+    flex: 1;
+    max-width: 160px;
+    height: 40px;
+    justify-content: center;
+  }
+
+  /* Layout principal */
+  .mw-layout {
+    flex: 1;
+    grid-template-columns: 1fr;
+    gap: 0;
+    overflow-x: hidden;
+  }
+
+  /* Sidebar */
+  .mw-sidebar {
+    position: static;
+    padding: var(--space-xs);
+    background: var(--white);
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .mw-sidebar section {
+    margin-bottom: var(--space-sm);
+  }
+
+  .mw-sidebar h3 {
+    margin: 0;
+    padding: var(--space-xs) 0;
+  }
+
+  .mw-sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+
+  .mw-sidebar li {
+    margin: 0;
+  }
+
+  .mw-sidebar a {
+    padding: var(--space-xs) var(--space-sm);
+    background: var(--bg-color);
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  /* Contenu principal */
+  .mw-content {
+    flex: 1;
+    padding: var(--space-sm);
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: var(--bg-color);
+  }
+
+  /* Chat */
+  .chat {
+    height: calc(100vh - 180px);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chat-messages {
+    flex: 1;
+    padding: var(--space-xs);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .message {
+    max-width: 90%;
+    margin-bottom: var(--space-xs);
+  }
+
+  .message-content {
+    font-size: 0.9rem;
+    padding: var(--space-sm);
+    word-break: break-word;
+  }
+
+  .chat-input-container {
+    position: sticky;
+    bottom: 0;
+    background: var(--white);
+    padding: var(--space-xs);
+    border-top: 1px solid var(--border-light);
+  }
+
+  #chatInput {
+    height: 40px;
+    padding: var(--space-xs);
+    font-size: 16px;
+  }
+
+  /* Modal */
+  .mw-modal-dialog {
+    margin: 0;
+    max-width: none;
+    height: 100vh;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mw-modal-body {
+    flex: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Formulaires */
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  textarea {
+    height: 40px;
+    font-size: 16px;
+    padding: var(--space-xs) var(--space-sm);
+  }
+
+  /* Boutons */
+  button,
+  .mw-primary {
+    height: 40px;
+    padding: 0 var(--space-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Tables responsive */
+  .mw-article table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Images responsive */
+  .mw-article img,
+  .mw-article figure {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Correction des flottants */
+  .mw-article .infobox,
+  .mw-article .tright,
+  .mw-article .tleft {
+    float: none;
+    width: 100%;
+    margin: 1em 0;
+  }
+}
+
+/* Très petits écrans */
+@media screen and (max-width: 320px) {
+  .mw-header {
+    padding: var(--space-xs) 0;
+  }
+
+  .mw-auth {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .mw-auth-btn {
+    max-width: none;
+  }
+
+  .mw-search {
+    padding: 0 var(--space-xs);
+  }
+}
+
+/* Support pour les appareils avec encoche */
+@supports(padding: max(0px)) {
+  .mw {
+    padding-left: max(var(--space-xs), env(safe-area-inset-left));
+    padding-right: max(var(--space-xs), env(safe-area-inset-right));
+    padding-bottom: max(var(--space-xs), env(safe-area-inset-bottom));
+  }
+}
+
 /* Print styles */
 @media print {
   .mw-sidebar,
