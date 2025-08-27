@@ -1,5 +1,12 @@
+---
+title: Cascade Encyclopédie
+description: L'encyclopédie libre, moderne et collaborative
+---
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cascadeencyclopedie/cascade#/branding/master/IMG_0001%203.svg" width="120" alt="Logo Cascade Encyclopédie">
+  <a href="https://github.com/cascadeencyclopedie/cascade">
+    <img src="https://raw.githubusercontent.com/cascadeencyclopedie/cascade/branding/master/IMG_0001%203.svg" width="120" alt="Logo Cascade Encyclopédie">
+  </a>
 </p>
 
 <h1 align="center">🌊 Cascade Encyclopédie</h1>
