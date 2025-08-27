@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/cascade-encyclopedie/branding/master/IMG_0001.png" width="120" alt="Logo Cascade Encyclopédie" />
-</p>
+
 
 <h1 align="center">🌊 Cascade Encyclopédie</h1>
 
