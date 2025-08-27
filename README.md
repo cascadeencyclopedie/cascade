@@ -25,4 +25,4 @@ Cascade est une encyclopédie collaborative open source qui propose :
 
 ## Bénévolat
 
-N'hésitez pas à contribuer pour faire évoluer le site ! Chacun peut apporter sa touche unique pour enrichir cette encyclopédie collaborative. Participez sur GitHub en proposant des idées, en améliorant le contenu ou en corrigeant des erreurs
+N'hésitez pas à contribuer dans le code pour faire évoluer le site ! Chacun peut apporter sa touche unique pour enrichir cette encyclopédie collaborative. Participez sur le referentiel GitHub en proposant des idées, en améliorant le site, la responsivité sur différents appareils ou en corrigeant des erreurs
