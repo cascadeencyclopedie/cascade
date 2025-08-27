@@ -22,3 +22,7 @@ Cascade est une encyclopédie collaborative open source qui propose :
 - Une base de connaissances gratuite et accessible à tous.  
 - Un contenu sous licence libre CC BY-SA 4.0, favorisant la réutilisation.  
 - Une plateforme sans publicité, centrée sur la qualité et l'indépendance.
+
+## Bénévolat
+
+N'hésitez pas à contribuer pour faire évoluer le site ! Chacun peut apporter sa touche unique pour enrichir cette encyclopédie collaborative. Participez sur GitHub en proposant des idées, en améliorant le contenu ou en corrigeant des erreurs
