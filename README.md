@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cascade-encyclopedie/branding/master/IMG_0001%203.svg" width="120" alt="Logo Cascade Encyclopédie">
+  <img src="https://raw.githubusercontent.com/cascadeencyclopedie/cascade/branding/master/IMG_0001%203.svg" width="120" alt="Logo Cascade Encyclopédie">
 </p>
 
 <h1 align="center">🌊 Cascade Encyclopédie</h1>
