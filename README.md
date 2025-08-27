@@ -1,15 +1,4 @@
----
-title: Cascade Encyclopédie
-description: L'encyclopédie libre, moderne et collaborative
----
-
-<p align="center">
-  <a href="https://github.com/cascadeencyclopedie/cascade">
-    <img src="https://raw.githubusercontent.com/cascadeencyclopedie/cascade/branding/master/IMG_0001%203.svg" width="120" alt="Logo Cascade Encyclopédie">
-  </a>
-</p>
-
-<h1 align="center">🌊 Cascade Encyclopédie</h1>
+<h1 align="center">Cascade Encyclopédie</h1>
 
 <p align="center">
   <strong>L'encyclopédie libre, moderne et collaborative</strong>
@@ -20,16 +9,16 @@ description: L'encyclopédie libre, moderne et collaborative
     <img src="https://img.shields.io/badge/Licence-AGPL%20v3-blue" alt="Licence AGPL v3" />
   </a>
   <a href="https://github.com/cascade-encyclopedie/cascade/issues">
-    <img src="https://img.shields.io/badge/PRs-bienvenues-green" alt="PRs bienvenues" />
+    <img src="https://img.shields.io/badge/Contributions-Bienvenues-green" alt="Contributions bienvenues" />
   </a>
-  <a href="https://discord.gg/example">
+  <a href="INSERER_LIEN_DISCORD_VALIDE">
     <img src="https://img.shields.io/badge/Rejoignez-nous%20sur%20Discord-7289DA" alt="Discord" />
   </a>
 </p>
 
-## ✨ Présentation
+## Présentation
 
-Cascade est une encyclopédie collaborative **open source** qui propose :
-- 📚 Une base de connaissances gratuite et accessible
-- 🔓 Un contenu libre de droits (CC BY-SA 4.0)
-- 🛡️ Aucune publicité ni 
+Cascade est une encyclopédie collaborative open source qui propose :  
+- Une base de connaissances gratuite et accessible à tous.  
+- Un contenu sous licence libre CC BY-SA 4.0, favorisant la réutilisation.  
+- Une plateforme sans publicité, centrée sur la qualité et l'indépendance.
