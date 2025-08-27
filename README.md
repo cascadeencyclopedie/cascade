@@ -1,30 +1,28 @@
-# 🌊 Cascade Encyclopédie
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cascade-encyclopedie/branding/main/logo.svg" width="120" alt="Logo Cascade Encyclopédie" />
+</p>
 
-Bienvenue sur **Cascade Encyclopédie** — l'encyclopédie nouvelle génération, **gratuite**, **libre** et **open source**.
+<h1 align="center">🌊 Cascade Encyclopédie</h1>
 
-## ✨ Qu'est-ce que Cascade Encyclopédie ?
+<p align="center">
+  <strong>L'encyclopédie libre, moderne et collaborative</strong>
+</p>
 
-Cascade est une encyclopédie collaborative construite par et pour des bénévoles. Son objectif : créer une base de connaissances accessible à tous, respectueuse des libertés, et ouverte à la participation de chacun.
+<p align="center">
+  <a href="https://github.com/cascade-encyclopedie/cascade/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/Licence-AGPL%20v3-blue" alt="Licence AGPL v3" />
+  </a>
+  <a href="https://github.com/cascade-encyclopedie/cascade/issues">
+    <img src="https://img.shields.io/badge/PRs-bienvenues-green" alt="PRs bienvenues" />
+  </a>
+  <a href="https://discord.gg/example">
+    <img src="https://img.shields.io/badge/Rejoignez-nous%20sur%20Discord-7289DA" alt="Discord" />
+  </a>
+</p>
 
-## 💡 Pourquoi participer ?
+## ✨ Présentation
 
-- 🔓 Projet 100% open source
-- 🧠 Partage de savoirs sans publicité ni traçage
-- 🤝 Communauté bienveillante et engagée
-- 🌍 Contribution à un bien commun mondial
-
-## 🛠️ Comment contribuer ?
-
-Vous pouvez contribuer de différentes manières :
-
-- ✍️ Rédiger ou améliorer des articles
-- 🔍 Relire et corriger du contenu
-- 🧑‍💻 Développer des fonctionnalités
-- 🌐 Traduire dans d'autres langues
-- 💬 Participer aux discussions et à l'organisation
-
-Nous accueillons toutes les bonnes volontés, quel que soit votre niveau de compétence !
-
-## ❤️ Rejoignez-nous
-
-Envie de participer ? Venez discuter avec nous sur  ou explorez les issues GitHub pour commencer !
+Cascade est une encyclopédie collaborative **open source** qui propose :
+- 📚 Une base de connaissances gratuite et accessible
+- 🔓 Un contenu libre de droits (CC BY-SA 4.0)
+- 🛡️ Aucune publicité ni 
