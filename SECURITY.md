@@ -32,7 +32,7 @@ Nous nous engageons à traiter les rapports de sécurité avec diligence et tran
 ## Contact
 
 Pour toute question ou pour signaler une vulnérabilité, contactez-nous à :  
-- Email : [security@cascade-encyclopedie.org](mailto:security@cascade-encyclopedie.org)  
+- Email : 
 - Discord : [INSERER_LIEN_DISCORD_VALIDE](INSERER_LIEN_DISCORD_VALIDE)
 
 ---
